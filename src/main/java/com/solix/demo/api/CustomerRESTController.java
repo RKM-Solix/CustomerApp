@@ -23,8 +23,8 @@ import com.solix.demo.service.CustomerService;
 @RequestMapping("/api3")
 public class CustomerRESTController {
 
-	private static final String PLAN_URL = "http://localhost:8082/getPlan/{id}";
-	private static final String FRIEND_URL = "http://localhost:8083/friend/{phoneNumber}";
+	private static final String PLAN_URL = "http://localhost:8082/api/getPlan/{id}";
+	private static final String FRIEND_URL = "http://localhost:8083/api2/friend/{phoneNumber}";
 	
 	@Autowired
 	CustomerService customerService;
